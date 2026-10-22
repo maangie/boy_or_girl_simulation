@@ -14,8 +14,10 @@
 
 ## 実行方法
 
+依存パッケージは [uv](https://docs.astral.sh/uv/) で管理しています。
+
 ```bash
-python boy_or_girl_simulation.py
+uv run boy_or_girl_simulation.py
 ```
 
 ## 出力
@@ -28,5 +30,5 @@ python boy_or_girl_simulation.py
 
 ## 依存ライブラリ
 
-- Python 3
-- matplotlib
+- Python 3.11 以上
+- matplotlib（`pyproject.toml` / `uv.lock` で管理）
